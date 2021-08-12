@@ -82,23 +82,32 @@
 // console.log(`Общая сумма потраченного в магазине: ${totalSpent}`);
 
 // ex5
-const btnAdd = document.querySelector(`button[data-add]`);
-const resBtn = document.querySelector(`button[data-reset]`);
-const valueInput = document.querySelector(`button[data-value]`);
-const outputEl = document.querySelector(`.js-output span`);
+// const btnAdd = document.querySelector(`button[data-add]`);
+// const resBtn = document.querySelector(`button[data-reset]`);
+// const valueInput = document.querySelector(`button[data-value]`);
+// const outputEl = document.querySelector(`.js-output span`);
 
-let total = 0;
+// let total = 0;
 
-btnAdd.addEventListener("click", function () {
-  console.log(`click hehehehe`);
+// btnAdd.addEventListener("click", function () {
+//   console.log(`click hehehehe`);
 
-  const value = Number(valueInput.value);
-  total += value;
-  outputEl.textContent = total;
-  valueInput.value = "";
-});
+//   const value = Number(valueInput.value);
+//   total += value;
+//   outputEl.textContent = total;
+//   valueInput.value = "";
+// });
 
-resBtn.addEventListener("click", function () {
-  total = 0;
-  outputEl.textContent = total;
-});
+// resBtn.addEventListener("click", function () {
+//   total = 0;
+//   outputEl.textContent = total;
+// });
+
+// Modul 2
+const friends = ["q", "w", "e", "r", "t"];
+console.table(friends);
+const lastIndex = friends.length - 1;
+
+for (let i = 0; i <= lastIndex; i += 1) {
+  console.log(friends[i]);
+}
