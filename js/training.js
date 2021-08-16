@@ -104,10 +104,36 @@
 // });
 
 // Modul 2
-const friends = ["q", "w", "e", "r", "t"];
-console.table(friends);
-const lastIndex = friends.length - 1;
+// const friends = ["q", "w", "e", "r", "t"];
+// console.table(friends);
+// const lastIndex = friends.length - 1;
 
-for (let i = 0; i <= lastIndex; i += 1) {
-  console.log(friends[i]);
-}
+// for (let i = 0; i <= lastIndex; i += 1) {
+//   console.log(friends[i]);
+// }
+
+// const logins = ["fjdkdkfj", "eopckfvtk", "scmcddl"];
+// const loginToFind = "eopckfvtk21";
+
+// const message = logins.includes(loginToFind)
+//   ? "Пользователь ${loginToFind} найден."
+//   : "Пользователь ${loginToFind} не найден.";
+// console.log(message);
+
+// 2
+// const numbers = [5, 12, 17, 2, 189, 49, 35];
+// let biggestNumber = numbers[0];
+
+// for (const number of numbers) {
+//   if (number > biggestNumber) {
+//     biggestNumber = number;
+//   }
+// }
+// console.log("biggestNumber :", biggestNumber);
+
+// 3
+// const title = "Top 10 benefits of React framework";
+
+// const normalazedString = title.toLowerCase().split(" ").join("-");
+
+// console.log(normalazedString);
